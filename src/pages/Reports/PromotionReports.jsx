@@ -75,7 +75,7 @@ const PromotionsReports = () => {
               })
               .replace(",", " |")}
           </td>
-          <td className="fw-semibold">{data.bonus}</td>
+          <td className="fw-semibold">{data.note}</td>
           <td className="text-primary fw-semibold">{data.user?.username}</td>
           <td className="text-danger fw-semibold">
             {data.amount &&

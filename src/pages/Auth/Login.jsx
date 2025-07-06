@@ -17,7 +17,7 @@ const Login = () => {
     }
 
     try {
-      const response = await axios.post("https://n-api.ug888.xyz/api/login", {
+      const response = await axios.post("https://service-1.mv888.xyz/api/login", {
         username,
         password,
       });

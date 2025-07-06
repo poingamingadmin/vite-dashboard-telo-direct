@@ -3,7 +3,7 @@ import axios from "axios";
 const token = localStorage.getItem("auth_token");
 
 const AxiosInstance = axios.create({
-  baseURL: "https://n-api.ug888.xyz/api",
+  baseURL: "https://service-1.mv888.xyz/api",
   headers: {
     Authorization: token ? `Bearer ${token}` : "",
   },
